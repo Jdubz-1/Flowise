@@ -202,7 +202,7 @@ const Chatflows = () => {
                                     alt='WorkflowEmptySVG'
                                 />
                             </Box>
-                            <div>No Chatflows Yet</div>
+                            <div>No Workflows Yet</div>
                         </Stack>
                     )}
                 </Stack>

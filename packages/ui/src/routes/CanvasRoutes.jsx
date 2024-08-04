@@ -31,7 +31,7 @@ const CanvasRoutes = {
             element: <Canvas />
         },
         {
-            path: '/marketplace/:id',
+            path: '/templates/:id',
             element: <MarketplaceCanvas />
         }
     ]

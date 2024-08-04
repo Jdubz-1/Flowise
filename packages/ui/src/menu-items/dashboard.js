@@ -42,7 +42,7 @@ const dashboard = {
             id: 'marketplaces',
             title: 'Templates',
             type: 'item',
-            url: '/marketplaces',
+            url: '/templates',
             icon: icons.IconBuildingStore,
             breadcrumbs: true
         },
