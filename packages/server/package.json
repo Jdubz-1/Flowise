@@ -1,7 +1,7 @@
 {
-    "name": "flowise",
-    "version": "2.0.1",
-    "description": "Flowiseai Server",
+    "name": "Alpine AI - Forge",
+    "version": "1.0.0",
+    "description": "Forge Server",
     "main": "dist/index",
     "types": "dist/index.d.ts",
     "bin": {
@@ -44,10 +44,10 @@
         "test": "jest"
     },
     "keywords": [],
-    "homepage": "https://flowiseai.com",
+    "homepage": "",
     "author": {
-        "name": "Henry Heng",
-        "email": "henryheng@flowiseai.com"
+        "name": "",
+        "email": ""
     },
     "engines": {
         "node": ">=18.15.0 <19.0.0 || ^20"

@@ -542,7 +542,7 @@ const Marketplace = () => {
                                         alt='WorkflowEmptySVG'
                                     />
                                 </Box>
-                                <div>No Marketplace Yet</div>
+                                <div>No Templates Yet</div>
                             </Stack>
                         )}
                     </Stack>
