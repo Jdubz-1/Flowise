@@ -82,9 +82,9 @@ const getAllTemplates = async () => {
             templates.push(template)
         })
         const sortedTemplates = templates.sort((a, b) => a.templateName.localeCompare(b.templateName))
-        const FlowiseDocsQnAIndex = sortedTemplates.findIndex((tmp) => tmp.templateName === 'Flowise Docs QnA')
-        if (FlowiseDocsQnAIndex > 0) {
-            sortedTemplates.unshift(sortedTemplates.splice(FlowiseDocsQnAIndex, 1)[0])
+        const ForgeDocsQnAIndex = sortedTemplates.findIndex((tmp) => tmp.templateName === 'Forge Docs QnA')
+        if (ForgeDocsQnAIndex > 0) {
+            sortedTemplates.unshift(sortedTemplates.splice(ForgeDocsQnAIndex, 1)[0])
         }
         const dbResponse = sortedTemplates
         return dbResponse

@@ -1,5 +1,5 @@
 {
-    "description": "Flowise Docs Github QnA using Retrieval Augmented Generation (RAG)",
+    "description": "Forge Docs Github QnA using Retrieval Augmented Generation (RAG)",
     "badge": "POPULAR",
     "usecases": ["Documents QnA"],
     "framework": ["Langchain"],
@@ -286,7 +286,7 @@
                         "label": "Repo Link",
                         "name": "repoLink",
                         "type": "string",
-                        "placeholder": "https://github.com/FlowiseAI/Flowise",
+                        "placeholder": "https://github.com/Jdubz-1/Flowise",
                         "id": "github_0-input-repoLink-string"
                     },
                     {
